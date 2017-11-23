@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_dialog"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="16dp"
+    android:layout_width="340dp"
+    android:layout_height="300dp">
+
+    <ImageView
+        android:src="@drawable/trasua"
+        android:id="@+id/img_tra"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_width="320dp"
+        android:layout_height="196dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_below="@id/img_tra"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/nguoi"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:id="@+id/rv"
+                android:text="Văn Ba - Toco Toco: Tôi đã ăn ở đây nhiều lần..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/sao_vang"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-8dp"
+                android:layout_width="64dp"
+                android:layout_height="48dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

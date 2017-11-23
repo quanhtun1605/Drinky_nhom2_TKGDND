@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "542743632697",
+    "project_id": "drinky-185310"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542743632697:android:5bee3a0fd0e5d2b2",
+        "android_client_info": {
+          "package_name": "com.example.minhd.drinky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542743632697-m6nb1procs8ug4np3a78j1i1ru7a93sl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minhd.drinky",
+            "certificate_hash": "1cf6656ce604a0dba54e0fc916049c17addf47dc"
+          }
+        },
+        {
+          "client_id": "542743632697-256se0ke00mmdta5qjh0osun6jva1ehc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLQhibQmMK2Bm5V7ZAFjJjX2NEDif3SBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
